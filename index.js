@@ -21,7 +21,7 @@ let results = {
 submitbtn.addEventListener("click", async (e) => {
     e.preventDefault()
     console.log("clicked!")
-    resultscont.innerHTML =`<img width="30px" src="img/loading.svg" alt="">`
+    resultscont.innerHTML =`<img width="30px" src="loading.svg" alt="">`
 
     let key = "ema_live_5qKmgJcrOrpuiP4Rw2XYboE1eUvdU3rmHMJrPG83"
     let email = document.getElementById("username").value
